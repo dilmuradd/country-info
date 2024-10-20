@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   background: #eee;
+}
+@layer utilities {
+   .scrollbar-custom::-webkit-scrollbar {
+     width: 0px;
+   }
+   .scrollbar-custom::-webkit-scrollbar-thumb {
+     background-color: #4f46e5; 
+    
+     border-radius: 9999px;
+   }
+   .scrollbar-custom::-webkit-scrollbar-track {
+     background-color: transparent;
+   }
+ }
+
+ .customOverlay {
+ padding: 10px;
+}
+.customModal {
+  background: #fff;
+  border-radius: 10px;
+  margin: 0;
+  max-width: 500px;
+  width: 100%;
+}
+  
